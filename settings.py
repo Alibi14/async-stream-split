@@ -12,5 +12,5 @@ AWS_S3_BUCKET_NAME = os.environ.get("AWS_S3_BUCKET_NAME", 'uchetkzbucket')
 AWS_S3_ACCESS_KEY_ID = os.environ.get("AWS_S3_ACCESS_KEY_ID", 'minioadmin')
 AWS_S3_SECRET_KEY = os.environ.get("AWS_S3_SECRET_KEY", 'minioadmin')
 
-CHUNK_SIZE = os.environ.get("CHUNK_SIZE", 5242880)
+CHUNK_SIZE = os.environ.get("CHUNK_SIZE", 10485760)
 
